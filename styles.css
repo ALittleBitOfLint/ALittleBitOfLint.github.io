@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333333;
+}
+
+/* default font color */
+h1, h2, p, li {
+    color:#d3d3d3
+}
+
+/* menu styling */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    min-width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    background-color: #f1f1f1;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+}
+
+
+
+.blue-gradient-background {
+    background: linear-gradient(45deg, transparent, rgb(8, 8, 17));
+}
