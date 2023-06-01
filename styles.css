@@ -3,6 +3,11 @@ body {
     background-color: #333333;
 }
 
+header {
+    display: flex;
+    align-items: center;
+}
+
 /* default font color */
 h1, h2, p, li {
     color:#d3d3d3
