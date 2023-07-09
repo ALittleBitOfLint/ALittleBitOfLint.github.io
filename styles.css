@@ -5,7 +5,7 @@
     
     --body-background-color: #333333;
     --body-foreground-color: #d3d3d3;
-    --body-link-color: #0873ff;
+    --body-link-color: #5ca3ff;
     --body-link-visited-color: #999999;
 
   }
@@ -88,7 +88,16 @@ main {
 #intro h1 {
     text-align: center;
     margin: 30px 0px;
-  }
+}
+
+#bulletPointContainer {
+display: flex;
+margin-top: 10px;
+}
+
+#bulletPointsPLs, #bulletPointsAdditional {
+flex: 1;
+}
 
 #about {
     display: flex;
